@@ -6,7 +6,7 @@ public class ServiceDepartment
 	{
 		static void answer()
 		{
-            //Code to be 
+            //code to anser incoming service calls 
 		}
         static void viewServiceProgress()
         {
