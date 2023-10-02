@@ -3,7 +3,7 @@
 public class Context
 {
 	private IStrategy myStrategy;
-	class Context
+	public Context
 	{
 		public void setStrategy(IStrategy strategy) 
 		{
