@@ -1,10 +1,18 @@
 ﻿using System;
 
-public class ServiceDepartment
+public class ServiceDepartment implements IStrategy
 {
 	public ServiceDepartment()
 	{
-		public void answer()
+        @Override public void monitorPerformance()
+        {
+            myStrategy.monitorPerformance();
+        }
+        @Override public void escalate()
+        {
+            myStrategy.escalate();
+        }
+        public void answer()
 		{
             //code to anser incoming service calls 
 		}

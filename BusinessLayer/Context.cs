@@ -1,8 +1,8 @@
 ﻿using System;
+private IStrategy myStrategy;
 
 public class Context
 {
-	private IStrategy myStrategy;
 	public Context
 	{
 		public void setStrategy(IStrategy strategy) 
