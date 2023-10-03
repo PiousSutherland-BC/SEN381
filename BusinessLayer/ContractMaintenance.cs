@@ -6,11 +6,11 @@ public class ContractMaintenance  implements IStrategy
     {
         @Override public void monitorPerformance()
         {
-            myStrategy.monitorPerformance();
+            //override code
         }
         @Override public void escalate()
         {
-            myStrategy.escalate();
+            //override code
         }
         string Agreementviewing(string Client)
         {

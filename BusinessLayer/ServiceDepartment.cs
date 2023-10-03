@@ -6,13 +6,13 @@ public class ServiceDepartment implements IStrategy
 	{
         @Override public void monitorPerformance()
         {
-            myStrategy.monitorPerformance();
+            //override code
         }
         @Override public void escalate()
         {
-            myStrategy.escalate();
-        }
-        public void answer()
+            //override code
+    }
+    public void answer()
 		{
             //code to anser incoming service calls 
 		}

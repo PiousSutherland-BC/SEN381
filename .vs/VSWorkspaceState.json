@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BusinessLayer"
   ],
+  "SelectedNode": "\\DataAccessLayer",
   "PreviewInSolutionExplorer": false
 }
