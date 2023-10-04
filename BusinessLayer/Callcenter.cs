@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class CallCenter
+public class CallCenter implements IStrategy
 {
 	public CallCenter()
 	{
